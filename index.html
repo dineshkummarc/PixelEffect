@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8" />
+        <title>HTML5 pixelate effect | Script Tutorials</title>
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h2>HTML5 pixelate effect</h2>
+            <a href="http://www.script-tutorials.com/html5-canvas-pixelate-effect/" class="stuts">Back to original tutorial on <span>Script Tutorials</span></a>
+        </header>
+        <div class="container">
+            <div class="contr">
+                <input type="radio" name="mode" onchange="changeMode(0)" checked /><label>Original image</label>
+                <input type="radio" name="mode" onchange="changeMode(1)" /><label>Opacity channel</label>
+                <input type="radio" name="mode" onchange="changeMode(2)" /><label>White channel</label>
+                <input type="radio" name="mode" onchange="changeMode(3)" /><label>Color channel</label>
+            </div>
+            <canvas id="panel" width="800" height="600"></canvas>
+        </div>
+    </body>
+</html>
